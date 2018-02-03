@@ -6,10 +6,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Ventura</title>
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="author" content="">
+        <title>Viagens e Turismo no Rio Grande do Sul | Rota Viagens e Turismo</title>
+        <meta name="description" content="Rota Viagens, Turismo e aluguel de van em Pelotas e região. Turismo no Rio Grande do Sul. Confira!!!">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="env" content="{{ App::environment() }}">
         <!-- facebook meta -->
@@ -34,7 +32,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
+        @include('partials.menu')
         @yield('content')
 
         <script src="{{ URL::to('/') . elixir('js/all.js') }}"></script>
