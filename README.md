@@ -1,4 +1,4 @@
-#Ventura
+#Ventura Blaze
 
 ##Instalação
 
@@ -12,3 +12,15 @@
 
 ##Utilização
 Inicie o servidor: `php artisan serve --host=0.0.0.0`'' e o gulp: `gulp watch`. Faça sua parte :)
+
+##Kouto Swiss 
+The missing CSS toolbox for Stylus
+http://kouto-swiss.io/
+
+##Rupture
+Simple media queries for stylus
+https://jescalan.github.io/rupture/
+
+##Jeet
+A grid system for humans
+http://jeet.gs/

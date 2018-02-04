@@ -1,5 +1,5 @@
 @extends('templates.layout')
 
 @section('content')
-<h1>OLÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁ</h1>
+<h1>Eaí, Bora programar?</h1>
 @stop
