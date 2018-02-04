@@ -4,9 +4,13 @@
     "browser-sync": "^2.7.13",
     "gulp": "^3.9.0",
     "gulp-util": "^3.0.6",
+    "jeet": "^7.2.0",
+    "kouto-swiss": "^1.1.0",
     "laravel-elixir-browser-sync": "^1.0.0",
     "laravel-elixir-stylus": "^1.0.1",
-    "require-dir": "^0.3.0"
+    "require-dir": "^0.3.0",
+    "rupture": "^0.7.1",
+    "stylus": "^0.54.5"
   },
   "dependencies": {
     "laravel-elixir": "^3.0.0",

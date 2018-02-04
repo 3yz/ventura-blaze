@@ -1,6 +1,10 @@
-var elixir = require('laravel-elixir');
-
 require('laravel-elixir-stylus');
+
+var elixir = require('laravel-elixir'),
+koutoSwiss = require('kouto-swiss'),
+jeet = require('jeet'),
+rupture = require('rupture');
+
 
 /*
  |--------------------------------------------------------------------------
@@ -20,7 +24,7 @@ elixir(function(mix) {
         "app.js"
     ], 'public/js/all.js')
     .scripts(['checklist.js'], 'public/js/checklist.js')
-    .stylus('app.styl')
+    .stylus('app.styl', null , {use: [koutoSwiss(), jeet(), rupture()] })
     .version(['css/app.css', 'js/all.js'])
     .browserSync({proxy: 'localhost:8000'});
 });
